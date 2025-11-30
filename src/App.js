@@ -168,7 +168,6 @@ function App() {
     return (
       <div className="centered">
         <h1>Course Scheduler</h1>
-        <p>A single-file React app. Choose where to login:</p>
         <div className="card actions">
           <button onClick={() => setView("login-student")}>Student Login</button>
           <button onClick={() => setView("login-admin")}>Admin Login</button>
